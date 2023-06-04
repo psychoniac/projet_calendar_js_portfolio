@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./libs/calendar/vanilla-calendar-min.css">
+  <script src="https://kit.fontawesome.com/b6348122ed.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="./libs/calendar/vanilla-calendar-min.js"></script>
+  <script src="./app.js" defer></script>
+  <title>Tuto app calendar</title>
+</head>
+
+<body>
+  <div id="containerPage">
+    <h1>Playground HTML/CSS/JS-ES6</h1>
+    <h2>Utilisation de lib JS</h2>
+    <div id="calendar" class="vanilla-calendar"></div>
+    <div class="center">
+      <form>
+        <div>
+          <label for="title">Titre du film</label>
+          <input type="text" id="title" placeholder="Titre du film">
+        </div>
+        <div>
+          <label for="year">Année du film</label>
+          <input type="number" min="1900" id="year" placeholder="Année" value="2010">
+        </div>
+        <div>
+          <label for="duration">Durée</label>
+          <input type="text" id="duration" placeholder="durée">
+        </div>
+        <div>
+          <label for="genre">
+            <select name="" id="genre">
+              <option>Action</option>
+              <option>Comedie</option>
+              <option>Thriller</option>
+              <option>Anime</option>
+              <option>Romantique</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit">ajouter le film</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "appli-calendar",
+  "version": "1.0.0",
+  "description": "Appli Web HTML/CSS/JS (JS es6, CSS avec SASS) pour portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psychoniac/projet_calendar_js_portfolio.git"
+  },
+  "author": "jlnko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psychoniac/projet_calendar_js_portfolio/issues"
+  },
+  "homepage": "https://github.com/psychoniac/projet_calendar_js_portfolio#readme"
+}
